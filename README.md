@@ -9,14 +9,14 @@
 1.3. Выполните запрос на получение списка пользователей в базе данных. (скриншот)
 
 #### ОТВЕТ:
-![Скриншот-1](https://github.com/Monooks/12-02_NetoHW/blob/main/img/12.02_1.png)
+![Скриншот-1](https://github.com/George210890/12-02.md/blob/main/Screenshot_1.png)
 
 1.4. Дайте все права для пользователя sys_temp. 
 
 1.5. Выполните запрос на получение списка прав для пользователя sys_temp. (скриншот)
 
 #### ОТВЕТ:
-![Скриншот-2](https://github.com/Monooks/12-02_NetoHW/blob/main/img/12.02_2.png)
+![Скриншот-2](https://github.com/George210890/12-02.md/blob/main/Screenshot_2.png)
 
 1.6. Переподключитесь к базе данных от имени sys_temp.
 
@@ -25,7 +25,7 @@
 ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
 ```
 #### ОТВЕТ:
-![Скриншот-3](https://github.com/Monooks/12-02_NetoHW/blob/main/img/12.02_3.png)
+![Скриншот-3](https://github.com/George210890/12-02.md/blob/main/Screenshot_3.png)
 
 1.6. По ссылке https://downloads.mysql.com/docs/sakila-db.zip скачайте дамп базы данных.
 
@@ -34,7 +34,7 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 1.8. При работе в IDE сформируйте ER-диаграмму получившейся базы данных. При работе в командной строке используйте команду для получения всех таблиц базы данных. (скриншот)
 
 #### ОТВЕТ:
-![Скриншот-4](https://github.com/Monooks/12-02_NetoHW/blob/main/img/12.02_4.png)
+![Скриншот-4](https://github.com/George210890/12-02.md/blob/main/Screenshot_4.png)
 
 *Результатом работы должны быть скриншоты обозначенных заданий, а также простыня со всеми запросами.*
 
@@ -80,7 +80,7 @@ customer         | customer_id
 ```
 
 #### ОТВЕТ:
-![Скриншот-5](https://github.com/Monooks/12-02_NetoHW/blob/main/img/12.02_5.png)
+![Скриншот-5](https://github.com/George210890/12-02.md/blob/main/Screenshot_5.png)
 ```
 Название таблицы             | Название первичного ключа
 actor                        | actor_id
@@ -117,7 +117,7 @@ store                        | store_id
 3.2. Выполните запрос на получение списка прав для пользователя sys_temp. (скриншот)
 
 #### ОТВЕТ:
-![Скриншот-6](https://github.com/Monooks/12-02_NetoHW/blob/main/img/12.02_6.png)
+![Скриншот-6](https://github.com/George210890/12-02.md/blob/main/Screenshot_6.png)
 
 ```sql
 mysql> REVOKE ALL PRIVILEGES, GRANT OPTION FROM 'sys_test'@'localhost';
